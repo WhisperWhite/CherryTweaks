@@ -1,21 +1,27 @@
 {
-	"feature": "minecraft:bamboo_some_podzol",
+	"feature": {
+	  "type": "minecraft:bamboo",
+	  "config": {
+		"probability": 0.6
+	  }
+	},
 	"placement": [
-		{
-			"type": "minecraft:noise_based_count",
-			"noise_to_count_ratio": 6,
-			"noise_factor": 80,
-			"noise_offset": 0.3
-		},
-		{
-			"type": "minecraft:in_square"
-		},
-		{
-			"type": "heightmap",
-			"heightmap": "WORLD_SURFACE_WG"
-		},
-		{
-			"type": "minecraft:biome"
-		}
+	  {
+		"type": "minecraft:noise_based_count",
+		"noise_to_count_ratio": 6,
+		"noise_factor": 80,
+		"noise_offset": 0.3
+	  },
+	  {
+		"type": "minecraft:in_square"
+	  },
+	  {
+		"type": "minecraft:heightmap",
+		"heightmap": "WORLD_SURFACE_WG"
+	  },
+	  {
+		"type": "minecraft:biome"
+	  }
 	]
-}
+  }
+  
